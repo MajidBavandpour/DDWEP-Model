@@ -1,0 +1,26 @@
+Raster Download Information
+
+Number of Columns: 2653
+Number of Rows: 2191
+Resolution in x direction: 30.0 Meter
+Resolution in y direction: -30.0 Meter
+
+Coordinate system ID Reprojected: EPSG:26910
+Top edge Reprojected: 4324173.8308 Meter
+Bottom edge Reprojected: 4258445.6535 Meter
+Left edge Reprojected: 691725.9780 Meter
+Right edge Reprojected: 771329.4131 Meter
+
+Coordinate system ID Native: 5070
+Top edge Native: 2053386.8997 Meter
+Bottom edge Native: 1971876.1278 Meter
+Left edge Native: -2118387.8442 Meter
+Right edge Native: -2027640.2209 Meter
+
+Coordinate system ID WGS84: 4326
+Top edge WGS84: 39.0252 Degree
+Bottom edge WGS84: 38.4534 Degree
+Left edge WGS84: -120.7852 Degree
+Right edge WGS84: -119.8907 Degree
+
+Download Format: GeoTiff_with_attribs
