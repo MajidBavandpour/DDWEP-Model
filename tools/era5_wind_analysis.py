@@ -1,3 +1,21 @@
+############################################################
+# Developed by Majid Bavandpour(a) and Facundo Scordo(b)
+# (a) Ph.D. Student @ UNR <majid.bavandpour@gmail.com>
+# (b) Research Faculty @ UNR <fscordo@unr.edu>
+# Summer 2025
+#
+############################################################
+
+############################################################
+# 
+# 
+# This preprocess the Era5 Land Wind data
+# 
+# 
+############################################################
+
+
+
 from datetime import datetime
 from osgeo import gdal, osr
 import numpy as np
@@ -14,8 +32,8 @@ from zoneinfo import ZoneInfo
 import pytz
  
 
-era5_wind_data_path = r"C:\Users\mbavandpour\OneDrive - University of Nevada, Reno\PhD\FilesShouldShareWithBoxFolder\Facundo_Research\Windninja_run\ERA5\5by5_dayhours"
-out_path = r"C:\Users\mbavandpour\OneDrive - University of Nevada, Reno\PhD\FilesShouldShareWithBoxFolder\Facundo_Research\Code Repository\data\era5_wind_postprocessing_5by5_dayhours"
+era5_wind_data_path = r""
+out_path = r""
 time_intervals = [[datetime.datetime(2021, 8, 25, 23, 0, 0, 0), datetime.datetime(2021, 8, 26, 23, 0, 0, 0)],
                   [datetime.datetime(2021, 8, 26, 23, 0, 1, 0), datetime.datetime(2021, 8, 27, 23, 0, 0, 0)],
                   [datetime.datetime(2021, 8, 27, 23, 0, 1, 0), datetime.datetime(2021, 8, 28, 23, 0, 0, 0)],
